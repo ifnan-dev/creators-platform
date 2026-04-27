@@ -4,7 +4,6 @@ import PostCard from "../ui/PostCard";
 import FeaturedPost from "../ui/FeaturedPost";
 import FaeturedPostPage from "./FeaturedPostPage";
 import PostCardPage from "./PostCardPage";
-import FilterIcon from "../ui/FilterIcon";
 import FilterRow from "./FilterRow";
 import Search from "../ui/Search";
 

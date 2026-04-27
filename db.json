@@ -19,6 +19,11 @@
       "username": "nm",
       "password": "nm",
       "id": "w3oOUAb-GtA"
+    },
+    {
+      "username": "ifnan",
+      "password": "123",
+      "id": "joLPSjHkcDU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

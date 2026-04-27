@@ -1,13 +1,10 @@
 type ButtonProps = {
   text: string;
-  variant?: 'primary' | 'secondary';
+  variant?: 'primary' | 'secondary'|'danger'
   buttonClick?: () => void;
 }
 
 const Button=({ text, variant = 'primary', buttonClick }: ButtonProps)=>{
-
-
-
 
 
     return(

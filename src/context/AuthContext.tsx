@@ -1,4 +1,4 @@
-import { createContext, useState, type ReactNode } from "react"
+import { createContext, useState } from "react"
 
 type UserType={
     username: string,
@@ -20,14 +20,14 @@ export const AuthContext = createContext<AuthContextType>({
 })
 
 type Props={
-    children:ReactNode
+    children:React.ReactNode
 }
 
-export const AuthProvider=({children}:Props)=>{
-    const [user, setUser] = useState<UserType|null>(null)
-    const [isLoggedIn, setIsLoggedIn] = useState(false)   
+export const AuthContextProvider=({children}:Props)=>{
+    const [value, setUser] = useState<UserType|null>(null)
+    const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false)   
     return(
-        <AuthContext.Provider value={{user:user, setUser:setUser, isLoggedIn:isLoggedIn, setIsLoggedIn:setIsLoggedIn}}>
+        <AuthContext.Provider value={{user:value, setUser:setUser, isLoggedIn:isLoggedIn, setIsLoggedIn:setIsLoggedIn}}>
             {children}
         </AuthContext.Provider>
     )

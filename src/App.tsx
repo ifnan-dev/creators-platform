@@ -3,6 +3,7 @@ import "./App.css";
 import HomePage from "./Components/pages/HomePage";
 import Login from "./Components/ui/Login";
 import Signup from "./Components/ui/Signup";
+import CreatePost from "./Components/ui/CreatePost";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-
+      <Route path="/post" element={<CreatePost />} />
     </Routes>
     </BrowserRouter>
   );

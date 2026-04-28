@@ -1,5 +1,6 @@
 export const frontendRoutes = {
     home: "/",
     login: "/login",
-    signup: "/signup"
+    signup: "/signup",
+    post:"/post"
 }

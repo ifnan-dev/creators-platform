@@ -26,5 +26,41 @@
       "id": "joLPSjHkcDU"
     }
   ],
+  "posts": [
+    {
+      "title": "asasa",
+      "description": "asasas",
+      "id": "r8RfHvWmXEQ"
+    },
+    {
+      "title": "asasas",
+      "description": "asasas",
+      "id": "eIPZDlqWhvU"
+    },
+    {
+      "title": "asasas",
+      "description": "asasa",
+      "imageUrl": "C:\\fakepath\\WIN_20260415_15_07_11_Pro.jpg",
+      "id": "TVN8c3yjMHI"
+    },
+    {
+      "title": "assasa",
+      "description": "asasaca",
+      "imageUrl": "C:\\fakepath\\WIN_20260415_15_07_40_Pro.jpg",
+      "id": "KueRW476kg0"
+    },
+    {
+      "title": "vsvsdv",
+      "description": "dvcsdv",
+      "imageUrl": "C:\\fakepath\\WIN_20260415_15_10_26_Pro.jpg",
+      "id": "j7i1CO-D2JM"
+    },
+    {
+      "title": "asasas",
+      "description": "asasas",
+      "imageUrl": "asasas",
+      "id": "KRPdYEakcRo"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

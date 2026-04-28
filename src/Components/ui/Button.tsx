@@ -1,7 +1,7 @@
 type ButtonProps = {
   text: string;
   variant?: 'primary' | 'secondary'|'danger'
-  buttonClick?: () => void;
+  buttonClick?: (e:any) => void;
 }
 
 const Button=({ text, variant = 'primary', buttonClick }: ButtonProps)=>{
